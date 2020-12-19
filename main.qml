@@ -2,7 +2,7 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 2.14
 import QtQuick.Dialogs 1.3
-//import "mmmfunc.js" as fff
+import "mmmfunc.js" as Fff
 
 
 Window {
@@ -29,7 +29,7 @@ Window {
             text: "Open"
             onClicked: {
                 fd.open()
-//                fff.textFunc("ttt", id1, id2, id3, id4)
+                Fff.textFunc("ttt", id1, id2, id3, id4)
             }
         }
 
